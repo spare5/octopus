@@ -7,7 +7,7 @@ module Octopus
                              :load_target, :reload, :size, :select
       else
         base.sharded_methods :reader, :writer, :ids_reader, :ids_writer, :create, :create!,
-			     :build, :empty?, :include?, :load_target, :reload, :size, :select
+			       :build, :empty?, :include?, :load_target, :reload, :size, :select
       end
     end
   end
